@@ -32,10 +32,10 @@ public class Main
 
          A = 10, B = 11, C = 12, D = 13, E = 14, F = 15
 
-            2.1: 1100110 base 2 is 18 in decimal
-            2.2: 1100110 base 2 is C16,2 in hexadecimal
+            2.1: 1100110 base 2 is 102 in decimal
+            2.2: 1100110 base 2 is 66 in hexadecimal
             2.3: 8C2A base 16 is 1000110000101010 in binary
-            2.4: 12B3 base 16 is 26 in decimal
+            2.4: 12B3 base 16 is 0001001010110011 in decimal
 
 
         Ex. 4
