@@ -37,6 +37,11 @@ public class Main
             2.3: 8C2A base 16 is 1000110000101010 in binary
             2.4: 12B3 base 16 is 0001001010110011 in decimal
 
+        Ex. 3
+
+            3.1: a byte is 8 bits, and a byte can only take 256 values
+            3.2: 9 bits / 512 values
+            3.3: 2 bytes
 
         Ex. 4
 
