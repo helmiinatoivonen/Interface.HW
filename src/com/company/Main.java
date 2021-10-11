@@ -1,6 +1,8 @@
 package com.company;
 
-import java.io.*;
+import java.io.File;
+import java.io.IOException;
+import java.util.Scanner;
 
 public class Main
 {
@@ -48,7 +50,7 @@ public class Main
         GregorianCalendar cal = new GregorianCalendar ();
         System.out.println("current time: " + cal.getTime());
 
-        Ex. 5 */
+        Ex. 5
 
         FileWriter writer = new FileWriter ("15ints.txt");
         writer.write ("integers");
@@ -76,6 +78,26 @@ public class Main
         catch (IOException e)
         {
             e.printStackTrace();
+        }
+
+
+        Ex. 6 */
+
+        if (args.length < 2)
+        {
+            System.out.println ("too few arguments");
+        }
+
+        try (Scanner input = new Scanner(new File(args [1])))
+
+        {
+            while (input.hasNext())
+                System.out.println (input.next().length());
+        }
+        catch (Exception e)
+        {
+            System.out.println ("got exception: " + e);
+            System.exit (1);
         }
     }
 }
